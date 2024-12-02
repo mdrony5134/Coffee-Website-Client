@@ -21,7 +21,7 @@ const AddCoffee = () => {
     event.preventDefault();
     console.log(formData);
 
-    fetch("http://localhost:5000/coffees", {
+    fetch("https://coffee-website-backend-g3lrok0zm-md-ronys-projects.vercel.app/coffees", {
       method: "POST",
       headers: {
         "content-type": "application/json",

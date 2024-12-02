@@ -53,7 +53,7 @@ const SingUp = () => {
     const newUser = { name, email, photoURL, createdAt };
     try {
       await singUp(name, email, photoURL, password);
-      const response = await fetch("http://localhost:5000/users", {
+      const response = await fetch("https://coffee-website-backend-g3lrok0zm-md-ronys-projects.vercel.app/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
