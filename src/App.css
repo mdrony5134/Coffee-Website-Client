@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rancho&display=swap");
+
+h1, .btn {
+  font-family: "Rancho", cursive;
+}
+.title {
+  font-family: "Raleway", sans-serif;
+}
+.header {
+  background-image: url("../public/images/more/15.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner {
+  background-image: url("../public/images/more/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer{
+  background-image: url("../public/images/more/13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-footer{
+  background-image: url("../public/images/more/24.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
